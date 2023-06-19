@@ -1,0 +1,9 @@
+.first-part {
+    background-image: url(https://i.guim.co.uk/img/media/a6a3dfbaaff0b2a556a71467a015bddd6fde352c/0_952_1999_1199/master/1999.jpg?width=1200&quality=85&auto=format&fit=max&s=f5d5f2d5f6b3bdae08fd8662576085db);
+    background-size: cover;
+    height: 100vh;
+}
+
+.first-part h1 {
+    text-align: center;
+}
