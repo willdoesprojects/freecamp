@@ -6,27 +6,17 @@ body {
     margin: 0;
 }
 
-.navigation {
-    background-color: blue;
-    color: white;
+.nav {
+    background: white;
+    border: grey;
+
+}
+
+.entirenav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
+    
 }
 
-.navigation ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
-.navigation a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.navigation li.active {
-    text-decoration: underline;
-}
