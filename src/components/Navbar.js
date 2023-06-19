@@ -35,7 +35,7 @@ function Navbar() {
                         <a href = "#">Login</a>
                     </li>
                     <li>
-                        <a href = "#">Sign Up</a>
+                        <a href = "/signup">Sign Up</a>
                     </li>
                 </ul>
             </div>
