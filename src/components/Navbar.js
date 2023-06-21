@@ -1,7 +1,6 @@
 import "./navbar.css";
 import { useState, useEffect } from "react";
 import logoImage from "../logo.png";
-
 function Navbar() {
     const [currentPath, setCurrentPath] = useState('');
 
@@ -14,7 +13,7 @@ function Navbar() {
 
             <div className = "rest">
                 <a href = "/" className = "site-title">
-                    <img src={logoImage} alt = "logo"></img>
+                    <img src={logoImage} alt = "logo" className="logo"></img>
                 </a>
             <ul>
                 <li className={`${currentPath === '/magazine' ? 'active' : ''}`}>

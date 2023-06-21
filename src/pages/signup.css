@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.signup {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    background-image: url('../camppic.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.signup .field {
+  position: relative;
+  width: 370px;
+  height: 60px;
+}
+
+.signup .field input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid white;
+  outline: none;
+  background: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.1em;
+  background: white;
+}
+
+.signup .field input:focus {
+    outline: 2px solid black;
+}
+
+.logo2 {
+    height: auto;
+    width: 350px;
+}
+
+.signup .btn {
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background-color: white;
+    font-style: italic;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+}

@@ -1,5 +1,4 @@
 import "./homepage.css"
-import Navbar from "../components/Navbar.js"
 function HomePage() {
     return (
         <div className="first-part">

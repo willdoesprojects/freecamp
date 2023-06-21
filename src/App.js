@@ -1,17 +1,20 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useActionData, useLocation } from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 import AboutUs from "./pages/AboutUs";
 import Magazine from "./pages/Magazine";
 import Map from "./pages/Map";
 import SignUp from "./pages/SignUp";
 function App() {
+  const location = useLocation();
 
+  const isSignUpPage = location.pathname === '/signup';
+  const showNavbar = !isSignUpPage
 
   return (
     <>
-    <Navbar />
+    {showNavbar && <Navbar />}
     <div className="page">
       <Routes>
         <Route path = "/" element = {<HomePage />} />
