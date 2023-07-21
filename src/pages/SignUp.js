@@ -40,10 +40,10 @@ function SignUp() {
                 <br />
 
                 <div className='field'>
-                <input type="checkbox"></input>
-                <label className='check-one'> 
-                    I want to keep updated with awesome stories, moments, and changes sent right to the inbox
-                </label>
+                    <input type="checkbox" id = "checkbox" className='checkbox'/>
+                    <label className='check-one'> 
+                        I want to keep updated with awesome stories, moments, and changes sent right to the inbox
+                    </label>
                 </div>
                 
 
